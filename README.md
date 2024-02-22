@@ -1,6 +1,6 @@
 # K1-ButtonSerial
 This project is a lazy attempt to simulate button presses to a Creality K1 (Max) mainboard. This code works on all Arduino boards.
-
+If you like this project and want to support me, feel free to buy me a Kofi :) 
 ![20240222_200101](https://github.com/timfischbach/K1-ButtonSerial/assets/59933715/3adc5839-b8d2-4edf-89e0-44a23ef52615)
 ## How does it work?
 Most MCUs check their Button Pins for high or low voltage levels (mostly combined with input pullup resistors) to detect button presses.
