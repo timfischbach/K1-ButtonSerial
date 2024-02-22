@@ -11,7 +11,7 @@ Interestingly, the Arduino Pin is floating, when defined as Input via pinMode().
 The reset button triggers when a low voltage is applied (GND) and the boot button triggers at a high voltage.
 The Arduino receives via serial the user input and correspondingly executes certain button combos, to achieve the user interaction on the mainboard remotely.
 ## Wiring
-Solder some wires to the red marked Testpoints and connect those to the Arduino correspondingly to the provided layout.
+Solder some wires to the red marked Testpoints (located under the buttons of the board) and connect those to the Arduino correspondingly to the provided layout.
 IMPORTANT: Ground connection (green marked) is only necessary, if the K1 mainboard is not connected to the same PC as the Arduino!
 
 ![20240222_200029](https://github.com/timfischbach/K1-ButtonSerial/assets/59933715/f88ce5b3-b03a-4254-b426-e8ba6a85b61e)
