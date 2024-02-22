@@ -7,6 +7,7 @@ This project is a lazy attempt to simulate button presses to a Creality K1 (Max)
 ## How does it work?
 Most MCUs check their Button Pins for high or low voltage levels (mostly combined with input pullup resistors) to detect button presses.
 I connected an Arduino Uno R3 to the button testpoints of the K1 mainboard to simulate those high and low levels of voltages.
+Interestingly, the Arduino Pin is floating, when defined as Input via pinMode(). That's ideal for our simulation, so the button gpios of the K1 Board are not exposed to voltages and thus minimizing possible interferrences and damages.
 The reset button triggers when a low voltage is applied (GND) and the boot button triggers at a high voltage.
 The Arduino receives via serial the user input and correspondingly executes certain button combos, to achieve the user interaction on the mainboard remotely.
 ## Wiring
